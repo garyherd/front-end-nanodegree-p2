@@ -2,10 +2,32 @@
 	font-family: Arial;
 }
 
-span {
-	font-weight: bold;
+*{
+	-webkit-box-sizing: border-box;
+	-mozbox-sizing: border-box;
+	-msbox-sizing: border-box;
+	box-sizing: border-box;
+	/*border: 1px solid red !important;*/
 }
 
-.italicized {
+body {
+	max-width: 350px;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+span {
+	font-weight: bold;
+	font-style: normal;
+}
+
+li, .italicized {
 	font-style: italic;
+	list-style-type: none;
+}
+
+.outer-border {
+	border: 1px solid gray;
 }
