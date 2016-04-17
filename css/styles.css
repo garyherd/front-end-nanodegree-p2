@@ -2,18 +2,10 @@
 	font-family: Arial;
 }
 
-li {
-	font-style: italic;
-}
-
 span {
 	font-weight: bold;
 }
 
 .italicized {
 	font-style: italic;
-}
-
-.test {
-	font-style: inherit;
 }
