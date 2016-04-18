@@ -21,7 +21,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 300px;
 }
 
 
@@ -48,5 +48,6 @@ li, .italicized {
 .description {
 	border: 1px solid rgb(206, 206, 206);
 	padding: 0px 10px 0px 10px;
-	margin: 10px 0px 10px 0px;
+	margin: 10px auto;
+	max-width: 300px;
 }
