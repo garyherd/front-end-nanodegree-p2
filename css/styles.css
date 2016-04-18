@@ -7,15 +7,26 @@
 	-mozbox-sizing: border-box;
 	-msbox-sizing: border-box;
 	box-sizing: border-box;
-	/*border: 1px solid red !important;*/
 }
 
 body {
-	max-width: 350px;
+	max-width: 330px;
 }
 
+h3 {
+	padding: 0px 0px 0px 5px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
 ul {
-	padding-left: 0px;
+	padding-left: 0px; /*overwrite default padding*/
 }
 
 span {
@@ -25,9 +36,17 @@ span {
 
 li, .italicized {
 	font-style: italic;
-	list-style-type: none;
+	list-style-type: none; /*overwrite default list-style-type*/
 }
 
 .outer-border {
-	border: 1px solid gray;
+	border: 1px solid rgb(206, 206, 206);
+	padding: 0px 10px 10px 10px;
+	box-shadow: 0px 5px 5px 0px rgb(206, 206, 206);
+}
+
+.description {
+	border: 1px solid rgb(206, 206, 206);
+	padding: 0px 10px 0px 10px;
+	margin: 10px 0px 10px 0px;
 }
